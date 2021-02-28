@@ -39,6 +39,10 @@ bool color::similar_to(color c, color d)
 std::istream& operator>>(std::istream& istr, color& c)
 {
   char ch;
-  istr >> c.y >> ch >> c.cb >> ch >> c.cr;
+  int y, cb, cr;
+  istr >> y >> ch >> cb >> ch >> cr;
+  c.y = y;
+  c.cb = cb;
+  c.cr = cr;
   return istr;
 }
