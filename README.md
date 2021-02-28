@@ -55,7 +55,7 @@ The target language is currently hard-coded to Dutch.  This can be changed in th
 
 ## Prerequisites
 
-The program has tested with the following setup, only:
+The program has been tested with the following setup, only:
 
 - GNU/Linux operating system
 - GNU C++ compiler + Boost libraries
